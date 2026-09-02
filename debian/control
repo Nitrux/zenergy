@@ -1,0 +1,20 @@
+Source: zenergy-dkms
+Section: kernel
+Priority: optional
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-dkms,
+ dkms
+Standards-Version: 4.6.2
+Homepage: https://github.com/BoukeHaarsma23/zenergy
+Rules-Requires-Root: no
+
+
+Package: zenergy-dkms
+Architecture: all
+Depends: dkms (>= 2.1.0.0), ${misc:Depends}
+Description: DKMS source for the AMD Zen energy driver
+ This package provides the source code for the zenergy kernel module, which
+ exposes AMD RAPL energy counters through the HWMON sysfs interface. It uses
+ DKMS to build and install the module for installed kernels.

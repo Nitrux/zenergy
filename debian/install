@@ -1,0 +1,3 @@
+Makefile usr/src/zenergy-1.0/
+dkms.conf usr/src/zenergy-1.0/
+zenergy.c usr/src/zenergy-1.0/
