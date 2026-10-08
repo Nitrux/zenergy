@@ -1,3 +1,9 @@
+zenergy-dkms (1.0-2+nitrux) nitrux; urgency=medium
+
+  * Register the module with DKMS when the package is installed.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 07 Oct 2026 18:27:35 -0600
+
 zenergy-dkms (1.0-1+nitrux) nitrux; urgency=medium
 
   * Create the Nitrux DKMS package for the AMD Zen energy driver.
